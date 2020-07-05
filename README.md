@@ -4,7 +4,7 @@
 // 现阶段主要用的是python，基于geemap做的一些总结。
 
 1. 环境介绍
-Windows64位, jupyter notebook, python
+Windows64位, jupyter notebook, python，geemap
 
 2. 安装
 （1）GEE:科学上网，注册账号
@@ -17,9 +17,16 @@ Windows64位, jupyter notebook, python
 		更新所有包：conda update --all
 		安装包：conda install package
 		更新包：conda update package
-		
+		换源：https://zhuanlan.zhihu.com/p/62899936
 
-
-jupyter notebook:
-geemap：https://github.com/giswqs/geemap
+（3）jupyter notebook:
+	安装anaconda后自带。
+	用法：https://zhuanlan.zhihu.com/p/36858283
+	优雅的用法：https://www.zhihu.com/question/59392251
+（4）geemap：
+	参考：https://github.com/giswqs/geemap
+	安装：conda create -n gee python=3.7
+	conda activate gee
+	conda install mamba -c conda-forge
+	mamba install geemap -c conda-forge
 
