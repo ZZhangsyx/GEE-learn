@@ -22,7 +22,7 @@ Windows64位, jupyter notebook, python，geemap
 （3）jupyter notebook:
 	安装anaconda后自带。
 	用法：https://zhuanlan.zhihu.com/p/36858283
-	优雅的用法：https://www.zhihu.com/question/59392251
+	优雅的用法：https://www.zhihu.com/question/59392251 ，https://zodiac911.github.io/blog/jupyter-nbextensions-configurator.html
 （4）geemap：
 	参考：https://github.com/giswqs/geemap
 	安装：conda create -n gee python=3.7
